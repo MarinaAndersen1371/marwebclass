@@ -1,0 +1,62 @@
+import { parseCookies } from "@/helpers/index";
+import { useRouter } from "next/router";
+import { API_URL } from "@/config/index";
+import Layout from "@/components/Layout";
+import DashboardEvent from "@/components/DashboardEvent";
+import styles from "@/styles/Dashboard.module.css";
+
+export default function DashboardPage({ seminars, token }) {
+  const router = useRouter();
+
+  const deleteEvent = async (id) => {
+    if (confirm("Are you sure?")) {
+      const res = await fetch(`${API_URL}/seminars/${id}`, {
+        method: "DELETE",
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      });
+
+      const data = await res.json();
+      if (!res.ok) {
+        toast.error(data.message);
+      } else {
+        router.reload();
+      }
+    }
+  };
+
+  return (
+    <Layout title='User Dashboard'>
+      <div className={styles.dash}>
+        <h1>Dashboard</h1>
+        <h3>My Seminars</h3>
+        {seminars &&
+          seminars.map((seminar) => (
+            <DashboardEvent
+              key={seminar.id}
+              seminar={seminar}
+              handleDelete={deleteEvent}
+            />
+          ))}
+      </div>
+    </Layout>
+  );
+}
+
+export async function getServerSideProps({ req }) {
+  const { token } = parseCookies(req);
+
+  const res = await fetch(`${API_URL}/seminars/me`, {
+    method: "GET",
+    headers: {
+      Authorization: `Bearer ${token}`,
+    },
+  });
+
+  const seminars = await res.json();
+
+  return {
+    props: { seminars, token },
+  };
+}

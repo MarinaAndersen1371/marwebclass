@@ -1,0 +1,76 @@
+{
+  "seminars": [
+    {
+      "id": "1",
+      "name": "Entrepreneurship Fundamentals Become Your Own Boss",
+      "slug": "entrepreneurship-fundamentals-become-your-own-boss",
+      "venue": "State University",
+      "address": "919 3rd Ave New York, New York(NY), 10022",
+      "instructor": "John Johnson",
+      "date": "June 09, 2021",
+      "time": "18:00 PM EST",
+      "description": "Entrepreneurs are the backbone of our economy, driving innovations and creating new opportunities for advancement and growth. Breaking free from the proverbial golden handcuffs and seizing your opportunity for a fresh start is exciting but the entrepreneurial lifestyle can be daunting and many small businesses and startups that aren’t properly prepared end up failing.",
+      "image": "/images/sample/img1.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Art Photography Capture Beautiful Artwork",
+      "slug": "art-photography-capture-beautiful-artwork",
+      "venue": "Club Ozone",
+      "address": "966 Lexington Ave New York, New York(NY), 10021",
+      "instructor": "Maximilian Max",
+      "date": "June 2, 2021",
+      "time": "6:00 PM EST",
+      "description": "If you want to capture incredible photos of your artwork to dramatically elevate your social media, website or online presence, then this course is perfect for you! Filled with practical tools, inspiration and example images to help you along the way, the course covers a wide range of topics including gear choices, setting up your camera, lighting, composition, styling and basic editing on Adobe Photoshop and Lightroom Mobile.",
+      "image": "/images/sample/event2.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Productivity And Digital Efficiency",
+      "slug": "productivity-and-digital-efficiency",
+      "venue": "State Library",
+      "address": "675 Water St New York, New York(NY), 10002",
+      "instructor": "Kevin Klein",
+      "date": "June 11, 2021",
+      "time": "7:00 PM EST",
+      "description": "As the world continues to develop at an ever-increasing speed, being digitally efficient and maximizing your productivity is vital.  Learn how to embrace technology as a tool for success and manage your time efficiently in this essential program. This program should be a staple for anyone who wants to harness the power of a well-organized digital setup and implement productivity systems in the workplace.",
+      "image": "/images/sample/img3.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Viral Marketing Secrets To Promote Any Product",
+      "slug": "viral-marketing-7secrets-to-promote-any-product",
+      "venue": "Club Ozone",
+      "address": "70 W 115th St New York, New York(NY), 10026",
+      "instructor": "Klava Novizki",
+      "date": "June 20, 2021",
+      "time": "15:00 PM EST",
+      "description": "Ensuring that a product or service sells well online is not pure luck. It’s about employing proven tactics, tools and templates to make sure that your ad campaign stands the best chance of success. Put an end to the guessing games and learn what it takes to go viral and build a strong customer base in this best-selling course. You’ll learn everything from positioning, demand and content creation strategies to audience and competitor research and how to use these skills to make money as a professional freelancer.",
+      "image": "/images/sample/img4.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Become A Digital Marketer",
+      "slug": "become-a-digital-marketer",
+      "venue": "Technical College",
+      "address": "55 La Salle St #12K New York, New York(NY), 10027",
+      "instructor": "Kirk Nelson",
+      "date": "June 30, 2021",
+      "time": "8:00 PM EST",
+      "description": "This program contains everything you need to know to gain a solid understanding of how the fundamental aspects of digital marketing work. Plan and strategize your campaigns and content and then implement the skills you have learned to convert new clients, grow your following and skyrocket your business’s success.",
+      "image": "/images/sample/event5.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Creating Brand Identity Systems",
+      "slug": "creating-brand-identity-systems",
+      "venue": "Onyx Club",
+      "address": "60 Gramercy Park N #2 New York, New York(NY), 10010",
+      "instructor": " Brian Smitt",
+      "date": "July 2, 2021",
+      "time": "8:00 PM EST",
+      "description": "Powerful brands require a complete visual world to communicate effectively with a target audience. The world’s greatest brands capture consumer mindshare through design and have expert systems in place that capture the spirit of the company and filter this messaging through all of its elements. Creating brand identity systems is an intentional and considered process that requires master of a range of different skills including design, time management, presentation, writing and research skills.",
+      "image": "/images/sample/img7.jpg"
+    }
+  ]
+}
